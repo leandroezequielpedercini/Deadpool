@@ -1,0 +1,59 @@
+/* Header */
+/* header-img1 */
+.header-img1{
+width: 1100px;
+padding-left: 520px;
+margin-top: 2%;
+}
+
+
+/* titulo */
+.titulo{
+    width: 20%;
+    margin-left: 643px;
+    margin-top: 3%;
+    animation-name: titulo;
+    animation-duration: 2s;
+} 
+
+
+/* Tarjetas */
+.main-tarjetas{
+    display: flex;
+    margin-left: 555px;
+    margin-top: 100px;
+    
+}
+
+/* primera-tarjeta */
+
+.primera-tarjeta{
+    margin: top -10px; 
+
+}
+
+.segunda-tarjeta{
+    margin: top -10px;    
+
+}
+
+#trailer-uno{
+    width: 70%;
+    margin-top: 7px; 
+    margin-left: -202px;
+}
+
+
+
+/* #trailer-dos{
+    width: 7%;
+    margin-bottom: 14.2%;
+    margin-left: 540px ; 
+} */
+
+
+/* #trailer-tres{
+    width: 7%;
+    margin-bottom: 14.2%;
+    margin-left: 40%;
+} */
