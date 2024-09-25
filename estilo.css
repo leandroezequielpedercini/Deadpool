@@ -21,15 +21,15 @@ margin-top: 2%;
 .main-tarjetas{
     display: flex;
     margin-left: 555px;
-    margin-top: 100px;
+    margin-top: -0.1px;
     
 }
 
 /* primera-tarjeta */
 
 .primera-tarjeta{
-    margin: top -10px; 
-
+    margin: top 10px; 
+    
 }
 
 .segunda-tarjeta{
@@ -38,9 +38,10 @@ margin-top: 2%;
 }
 
 #trailer-uno{
-    width: 70%;
-    margin-top: 7px; 
-    margin-left: -202px;
+    width: 160px;
+    margin-bottom: 40px; 
+    margin-left: 570px;
+    
 }
 
 
@@ -57,3 +58,8 @@ margin-top: 2%;
     margin-bottom: 14.2%;
     margin-left: 40%;
 } */
+
+
+
+
+
