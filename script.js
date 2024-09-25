@@ -7,10 +7,6 @@ cabezal.innerHTML =  `<div class="div-header"> <img class="header-img1" src="/im
 let titulo = document.getElementById("titulo")
 titulo.innerHTML = `<img class="titulo" src="/img/2-titulo/titulo.jpg" alt="">`
 
-
-
-
-
 let botonUno = document.getElementById("btn-uno").onclick = function() {
 let traillerUno = document.getElementById("trailer-uno").play() 
 }
