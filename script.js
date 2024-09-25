@@ -8,9 +8,7 @@ let titulo = document.getElementById("titulo")
 titulo.innerHTML = `<img class="titulo" src="/img/2-titulo/titulo.jpg" alt="">`
 
 
-/* main */
-let main = document.getElementById("main")
-main.innerHTML = ``
+
 
 
 let botonUno = document.getElementById("btn-uno").onclick = function() {
