@@ -10,7 +10,7 @@ titulo.innerHTML = `<img class="titulo" src="/img/2-titulo/titulo.jpg" alt="">`
 
 /* main */
 let main = document.getElementById("main")
-main.innerHTML = `<div class="main-tarjetas " >
+main.innerHTML = `<div class="main-tarjetas" >
 
             <div class="primera-tarjeta">
             <div class="card" style="width: rem;">
