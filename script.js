@@ -49,14 +49,14 @@ main.innerHTML = `<div class="main-tarjetas" >
 
 
 let botonUno = document.getElementById("btn-uno").onclick = function() {
-document.getElementById("trailer-uno").play() 
+let traillerUno = document.getElementById("trailer-uno").play() 
 }
 
 let botonDos = document.getElementById("btn-dos").onclick = function() {
-  document.getElementById("trailer-dos").play()
+let traillerDos = document.getElementById("trailer-dos").play()
 }
 
 let botonTres = document.getElementById("btn-tres").onclick = function() {
-  document.getElementById("trailer-tres").play()
+let trailerTres = document.getElementById("trailer-tres").play()
 }
 
