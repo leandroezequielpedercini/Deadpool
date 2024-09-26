@@ -53,7 +53,6 @@ document.getElementById("trailer-uno").play()
 }
 
 
-
 let botonDos = document.getElementById("btn-dos").onclick = function() {
   document.getElementById("trailer-dos").play()
 }
