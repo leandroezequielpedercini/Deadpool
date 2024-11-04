@@ -1,1 +1,0 @@
-Este sitio web se trata de los trailer y de las peliculas de Deadpool
