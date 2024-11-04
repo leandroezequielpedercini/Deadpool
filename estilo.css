@@ -52,11 +52,20 @@ animation-duration: 2s;
 }
 
 
+.parrafo-entradas{
+    color: blue;
+    font: bold;
+    font-size: 65px;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+
 .footer{
     font-size: 180%;
     margin-left: 7%;
     display: flex;
-    margin-top: 16%;
+    margin-top: 6.5%;
 }
 
 .parrafo1{
