@@ -1,4 +1,6 @@
-
+body{
+    background-color: #feeee2 ;
+}
 /* Header */
 /* header-img1 */
 .header-img1{
@@ -9,20 +11,27 @@ animation-name: titulo;
 animation-duration: 2s;
 }
 
-
+@keyframes titulo {
+    100%{
+        scale: 200%;
+    
+    }
+}
 
 
 /* titulo */
-.titulo{
+.header-img2{
     width: 20%;
     margin-left: 643px;
     margin-top: 3%;
+    animation-name: subtitulo;
+    animation-duration: 2s;
 
 } 
 
-@keyframes titulo {
-    90%{
-        transform: translate(50%);
+@keyframes subtitulo {
+    100%{
+        scale: 170%;
     
     }
 }
@@ -52,7 +61,7 @@ animation-duration: 2s;
 }
 
 
-.parrafo-entradas{
+.nav{
     color: blue;
     font: bold;
     font-size: 65px;
@@ -60,8 +69,19 @@ animation-duration: 2s;
     margin-top: 5%;
     text-decoration: underline;
 }
-:hover .parrafo-entradas{
-   color:red;
+:hover .nav{
+    cursor: pointer;
+    color:rgb(0, 200, 255);
+border: solid 2px;
+margin-right: 30%;
+font-weight: bolder;
+justify-content: center;
+
+
+.img-Pochoclos{
+    margin-left:50% ;
+}
+
 }
 
 .footer{
