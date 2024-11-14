@@ -1,3 +1,4 @@
+/* index.html */
 body{
     background-color: #feeee2 ;
 }
@@ -62,33 +63,34 @@ animation-duration: 2s;
 
 
 .nav{
-    color: blue;
-    font: bold;
-    font-size: 65px;
-    margin-left: 30%;
-    margin-top: 5%;
+    color:  blue;
+     font-size: 65px;
+    margin-left: 28%;
     text-decoration: underline;
 }
 :hover .nav{
     cursor: pointer;
-    color:rgb(0, 200, 255);
+    color: blue;
 border: solid 2px;
 margin-right: 30%;
 font-weight: bolder;
 justify-content: center;
-
-
-.img-Pochoclos{
-    margin-left:50% ;
 }
 
+
+.pochoclos{
+    margin-top: -200px;
+
+    scale: 27%;
+    margin-left: -30%;
+    display: flex;
+    gap: 50%;
 }
 
 .footer{
     font-size: 180%;
     margin-left: 7%;
-    display: flex;
-    margin-top: 6.5%;
+    margin-top: -10%;
 }
 
 .parrafo1{
@@ -99,3 +101,5 @@ justify-content: center;
 
     width: 95%;
 }
+
+/* ventasDeEntrada */
