@@ -108,10 +108,10 @@ justify-content: center;
 
 
 
-@media screen and (max-width: 320px){
+@media  (max-width: 640px){
 
     .header-img1{
-       margin-left: -166.9%;
+       margin-left: -70%;
        scale: 45%
        
        ;
