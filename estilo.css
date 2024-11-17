@@ -12,13 +12,13 @@ animation-name: titulo;
 animation-duration: 2s;
 }
 
-@keyframes titulo {
+/* @keyframes titulo {
     100%{
         scale: 200%;
     
     }
 }
-
+ */
 
 /* titulo */
 .header-img2{
@@ -103,3 +103,17 @@ justify-content: center;
 }
 
 /* ventasDeEntrada */
+
+
+
+
+
+@media screen and (max-width: 320px){
+
+    .header-img1{
+       margin-left: -166.9%;
+       scale: 45%
+       
+       ;
+    }
+} 
