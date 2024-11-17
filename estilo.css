@@ -108,7 +108,7 @@ justify-content: center;
 
 
 
-@media  (max-width: 640px){
+@media  (max-width: 375px){
 
     .header-img1{
        margin-left: -70%;
