@@ -1,0 +1,28 @@
+.titulo{
+    width: 700px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.subtitulo{
+    width: 400px;
+    margin-left: 650px;
+    margin-top: 20px;    
+}
+.cartas{
+    display: flex;
+    gap: 450px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.footer{
+    background-color: rgb(131, 131, 131);
+    padding: 95px;
+    margin-top: 43px;
+
+}
