@@ -5,7 +5,7 @@
 }
 
 .subtitulo{
-    width: 400px;
+    width: 450px;
     margin-left: 650px;
     margin-top: 20px;    
 }
@@ -25,4 +25,24 @@
     padding: 95px;
     margin-top: 43px;
 
+}
+
+.parrafoFooter{
+    color: blue ;
+    font-size: 300%;
+    margin-bottom: 50%;
+    animation-name: soloENcines;
+    animation-duration: 2s;    
+}
+
+
+
+@keyframes soloENcines {
+    100%{
+        transform: translate(1050px);
+    }
+    
+    100%{
+        transform: translate(1050px);
+    }
 }
