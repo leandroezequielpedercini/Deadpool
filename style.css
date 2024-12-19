@@ -9,7 +9,33 @@
     margin-left: 650px;
     margin-top: 20px;    
 }
-.cartas{
+
+
+.cartas1{
+    display: flex;
+    gap: 450px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+.video1{
+    width: 400px;
+    margin-right: 2px;
+}
+
+
+.video2{
+    width: 400px;
+}
+
+.video3{
+    width: 400px;
+}
+
+
+.cartas2{
     display: flex;
     gap: 450px;
     margin-left: 150px;
@@ -22,8 +48,8 @@
 
 .footer{
     background-color: rgb(131, 131, 131);
-    padding: 95px;
-    margin-top: 43px;
+    margin-top: -1%;
+   
 
 }
 
