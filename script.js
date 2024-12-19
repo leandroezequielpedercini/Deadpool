@@ -7,11 +7,12 @@ header.innerHTML = `<div><img src="index/img/1-header/foto1.jpg" alt="MARVEL STU
 
 const seccion = document.getElementById("seccion")
 seccion.innerHTML = `<div class="cartas1">
-    
-<video class="video1" src="index/Video/traillerUno.mp4"</video>
+
+<video class="video1" src="index/Video/traillerUno.mp4"></video>
 <video class="video2" src="index/Video/traillerDos.mp4"></video>
 <video class="video3" src="index/Video/traillerTres.mp4"></video>
-    </div>`
+
+</div>`
 
     //main//
 

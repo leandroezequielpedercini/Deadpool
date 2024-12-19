@@ -13,26 +13,25 @@
 
 .cartas1{
     display: flex;
-    gap: 450px;
-    margin-left: 150px;
-    margin-top: 20px;
-}
+    gap: 65px;
+    margin-left: 25px;
+    margin-top: 5px;
+    }
 
-
-
-.video1{
-    width: 400px;
-    margin-right: 2px;
-}
-
+    .video1{
+        width: 550px;
+        border: solid 10px red;
+}   
 
 .video2{
-    width: 400px;
+    width: 550px;
+    border: solid 10px red;
 }
 
 .video3{
-    width: 400px;
-}
+    width: 550px;
+    border: solid 10px red;
+} 
 
 
 .cartas2{
