@@ -13,25 +13,71 @@
 
 .cartas1{
     display: flex;
-    gap: 65px;
-    margin-left: 25px;
+    gap: 50px;
+    margin-left: 60px;
     margin-top: 5px;
     }
 
     .video1{
         width: 550px;
         border: solid 10px red;
+        margin-right: -400px;
+                
 }   
+
+.btr1{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 1px;
+}
+
+
+
+
+.trailer1{
+    margin-left: -20px;
+
+}
 
 .video2{
     width: 550px;
     border: solid 10px red;
+    margin-left: 400px;
 }
+
+.btr2{
+    margin-left: 400px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    width: 100px;
+    font-size: 20px;
+;
+}
+
+.trailer2{
+    
+}
+
 
 .video3{
     width: 550px;
     border: solid 10px red;
+    margin-right: 500px;
 } 
+
+
+.btr3{
+   background-color: black;
+   color: white; 
+    font-weight: bold;
+    width: 100px;
+    font-size: 20px;
+    margin-right: 370px;}
+
 
 
 .cartas2{
@@ -42,14 +88,15 @@
 }
 
 
-
+.carroUno{
+    border: solid red 2px; 
+    padding;px;
+}
 
 
 .footer{
     background-color: rgb(131, 131, 131);
     margin-top: -1%;
-   
-
 }
 
 .parrafoFooter{
