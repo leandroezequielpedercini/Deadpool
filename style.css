@@ -35,6 +35,9 @@
 }
 
 
+:hover .btr1{
+    cursor:pointer  ;
+}
 
 
 .trailer1{
@@ -58,6 +61,11 @@
 ;
 }
 
+
+:hover .btr2{
+    cursor:pointer  ;
+}
+
 .trailer2{
     
 }
@@ -79,18 +87,30 @@
     margin-right: 370px;}
 
 
+    :hover .btr3{
+        cursor:pointer  ;
+    }
+
+
 
 .cartas2{
     display: flex;
-    gap: 450px;
+    gap: 50px;
     margin-left: 150px;
     margin-top: 20px;
 }
 
 
+.movi1{
+    border: solid green 10px;
+}
+
 .carroUno{
-    border: solid red 2px; 
-    padding;px;
+    border: solid red 2px;
+   margin-top: 300px;
+   margin-left: -210px;
+   scale: 150%;
+
 }
 
 
