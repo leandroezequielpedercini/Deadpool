@@ -69,5 +69,13 @@ main.innerHTML = `
     
     </div>`
 
+
+    const peliculas = [
+        {
+        }
+    ]
+
+
+
 const footer = document.getElementById("footer")
 footer.innerHTML = ` <div class="footer"> <p class="parrafoFooter" >Solo en cines.. compr las entradas por la web</p> <div/> `
