@@ -3,8 +3,6 @@ header.innerHTML = `<div><img src="index/img/1-header/foto1.jpg" alt="MARVEL STU
                     
                     <div><img src="index/img/2-titulo/titulo.jpg" alt="DEADPOOL" class="subtitulo" ></div>`
 
-
-
 const seccion = document.getElementById("seccion")
 seccion.innerHTML = `<div class="cartas1">
 
@@ -46,28 +44,30 @@ main.innerHTML = `
 <div class="cartas2">
 
     <div>
-    <img id="carrito1" class="movi1" src="index/img/3-tarjetas/foto1.jpeg" alt="Deadpool 1">
+    <img id="carrito1" class="movie1" src="index/img/3-tarjetas/foto1.jpeg" alt="Deadpool 1">
    </div>
-    <input class="carroUno" type="button" value="Añadir al carrito" onclick="carro1()">
-    
+   
+   <div>
+   <input class="carroUno" type="button" value="Añadir al carrito" onclick="carro1()">
+    </div>
 
     <div>
-    <img id="carrito2" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 2">
+    <img id="carrito2" class="movie2" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 2">
+    </div>
+    
+    <div>
     <input class="carroDos"  type="button" value="Añadir al carrito" onclick="carro2()" >
     </div>
 
     <div>
-    <img id="carrito1" src="index/img/3-tarjetas/foto3.jpeg" alt="Deadpool 3">    
-    <input class="carroTres" type="button" value="Añadir al carrito" onclick="carro3()" >  
-    
+    <img id="carrito1"  class="movie3" src="index/img/3-tarjetas/foto3.jpeg" alt="Deadpool 3">    
+    <div>
+   
+    <div>
+    <input class="carroTres"" type="button" value="Añadir al carrito" onclick="carro3()" >  
     </div>
-
+    
     </div>`
 
-
-
-
-
-
 const footer = document.getElementById("footer")
-footer.innerHTML = ` <div class="footer"> <p class="parrafoFooter" >Solo en cines..</p> <div/> `
+footer.innerHTML = ` <div class="footer"> <p class="parrafoFooter" >Solo en cines.. compr las entradas por la web</p> <div/> `
