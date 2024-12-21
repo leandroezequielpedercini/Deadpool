@@ -92,7 +92,7 @@
 
 .cartas2{
     display: flex;
-    gap: 250px;
+    gap: 500px;
     margin-left: 180px;
     margin-top: 20px;
 }
@@ -100,8 +100,12 @@
 
 .movie1{
     border: solid green 10px;
+    
 }
 
+.peliculaUno{
+    
+}
 
 .movie2{
     border: solid green 10px;
@@ -113,23 +117,29 @@
 
 .carroUno{
     height: 30px;
-    margin-top: 305px;
-    margin-left: -420px;
-
+    
 }
+
+.preciouno{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scale: 150%;
+    width: 64px }
+
+
 
 .carroDos{
     height: 30px;
-    margin-top: 300px;
-    margin-left: -395px;
+    
+    
 
 }
 
 .carroTres{
     height: 30px;
-    margin-top: 7px;
-    margin-left: 55px;
-
+    
 }
 
 .footer{
