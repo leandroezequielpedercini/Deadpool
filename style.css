@@ -160,20 +160,20 @@
     }  }
 
 
-@media (min-width:500px) {
+@media (min-width:320px) {
 .titulo{
     margin: 1px;
-    width: 480px;}
+    width: 300px;}
 
     .subtitulo{
        
-        margin-left: 70px;
-        width: 330px
+        margin-left: 60px;
+        width: 200px
     }
 
     .cartas1{
-        scale: 25%;
+        scale: 16%;
         margin-right: 1000px;
-        margin-top: -60px;
+        margin-top: -130px;
     }
 }
