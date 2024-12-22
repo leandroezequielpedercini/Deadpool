@@ -1,6 +1,6 @@
 const header = document.getElementById("header")
 header.innerHTML = `<div><img src="index/img/1-header/foto1.jpg" alt="MARVEL STUDIOS" class="titulo" ></div>
-                    
+
                     <div><img src="index/img/2-titulo/titulo.jpg" alt="DEADPOOL" class="subtitulo" ></div>`
 
 const seccion = document.getElementById("seccion")
