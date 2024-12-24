@@ -125,6 +125,9 @@
     scale: 150%;
     width: 64px }
 
+.pesos{
+    background-color: aqua;
+}
 
 
 .carroDos{
@@ -159,11 +162,17 @@
         transform: translate(1050px);
     }  }
 
-@media (min-width: 400px)
+@media (max-width: 320px)
 {
     .tituloheader{
-        background-color: red;
-        margin-left: -475px;
-        scale: 56%;
+        margin-left: -435px;
+        scale: 45.1%;
         }
+
+    .subtitulosection{
+        scale: 80%;
+        display:flexbox;
+        grid-row-start: auto;
+        
+    } 
 }

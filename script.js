@@ -52,8 +52,8 @@ main.innerHTML = ` <div class="cartas2">
 
 <p">Deadpool (1)</p>
 
-    <p >Precio:</p>
-    <p class="preciouno" id="precio1"></p>
+    <p>Precio:</p>
+     <div id="precioPeliculauno" class="pesos"></div>
 
 </div>
 
@@ -90,36 +90,39 @@ main.innerHTML = ` <div class="cartas2">
         {
             preciouno: "$2.000",
             preciodos: "$2.500",
-            preciotres: "$5.000"
+            preciotres:"$5.000"
         }
     ]
 
 
 
+    const contador =  0
 
-    const contador = 0
+    
 
-    const  carrito =document.getElementById("carrito") 
-    carrito.innerHTML = [""];
 
     function btrcarro1(){
-    
+
+   
+
     
         for(i=0; i < peliculas.length; i++){
+            console.log()
+            
+        
+            const preciodepelicula1 = document.getElementById("precioPeliculauno")
+            preciodepelicula1.innerHTML = `<p>${peliculas[i].preciouno}</p>`
+            
+            while ( contador < preciodepelicula1   ) {
+              preciodepelicula1.appendChild(contador++)
+                
+            }
 
-            const peli1 = document.getElementById("precio1")
-            peli1.innerHTML +=  (peliculas[i].preciouno) 
+        
+        }
+
+
     }
-    
-
-    while (peli1 < contador  ) {
-    
-    const sumar = document.getElementById("btrcarrito").value = Number(peliculas[i++].preciouno)
-
-}
-       
-}
-
 
 
 
