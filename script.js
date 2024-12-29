@@ -13,7 +13,7 @@ seccion.innerHTML = `<div class="cartas1">
     
     <div class="tariler2">
     <video id="segundoTrailer" class="video2" src="index/Video/traillerDos.mp4"></video>
-    <input class="btr2" type="button" value="Trailer"    onclick="bton2()">
+    <input class="btr2" type="button" value="Trailer" onclick="bton2()">
     </div>
 
     <div>
@@ -23,6 +23,7 @@ seccion.innerHTML = `<div class="cartas1">
 
     </div>`
 
+        
     function bton1() {
         document.getElementById("primerTrailer").play()
     }
@@ -46,14 +47,14 @@ main.innerHTML = ` <div class="cartas2">
 
 <img id="carrito1" class="movie1" src="index/img/3-tarjetas/foto1.jpeg" alt="Deadpool 1">
 
-<input id="btrcarrito" class="carroUno" type="button" value="Añadir al carrito" onclick="btrcarro1()">
+<input id="btrcarrito" class="carroUno" type="button" value="Añadir al carrito" onclick="btrcarro1()"> 
 
-<p id="pelicula1" class="peliculaUno" > Pelicula: </p>
+<p id="pelicula1" class="peliculaUno" > Pelicula: Deadpool (1) </p>
 
-<p">Deadpool (1)</p>
+
 
     <p>Precio:</p>
-     <div id="precioPeliculauno" class="pesos"></div>
+    <div id="carritouno" class="pesos">$0</div>
 
 </div>
 
@@ -62,69 +63,128 @@ main.innerHTML = ` <div class="cartas2">
 
 <div>
 <img id="carrito2" class="movie2" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 2">
-<input class="carroDos"  type="button" value="Añadir al carrito" onclick="carro2()" >
+<input class="carroDos"  type="button" value="Añadir al carrito" onclick="btrcarro2()" >
 
-<p id="pelicula2" class="peliculaDos" > Pelicula: </p>
+<p id="pelicula2" class="peliculaDos" > Pelicula:Deadpool (2) </p>
 
-<p id="precio2">Precio:</p>
+
+
+<p>Precio:</p>
+<div id="carritodos" class="pesos">$0</div>
+
+
 </div>
 
 
 <div>
+<img id="carrito3" class="movie3" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 3">
+<input class="carroTres"  type="button" value="Añadir al carrito" onclick="btrcarro3()" >
 
-<img id="carrito1"  class="movie3" src="index/img/3-tarjetas/foto3.jpeg" alt="Deadpool 3">    
+<p id="pelicula3" class="peliculaTres" > Pelicula:Deadpool (3) </p>
 
-<input class="carroTres" type="button" value="Añadir al carrito" onclick="carro3()" >  
 
-<p id="pelicula3" class="peliculaTres" > Pelicula: </p>
 
-<p id="precio3">Precio:</p>
+<p>Precio:</p>
+<div id="carritotres" class="pesos">$0</div>
 
-<div>
 
-</div>`
+</div>
+`
+
+
+
+
 
 
     
     const peliculas = [
         {
-            preciouno: "$2.000",
-            preciodos: "$2.500",
-            preciotres:"$5.000"
-        }
+            preciouno:  2000,
+            preciodos:  2500,
+            preciotres: 5000,
+            }
     ]
 
 
+    /* Carrito Uno */
 
-    const contador =  0
-
-    
-
+    let contadoruno = 0
 
     function btrcarro1(){
 
-   
+    
+    carritouno = []
+
+
+    for(let i= 0; i < peliculas.length; i++){
+        carritouno.push(peliculas[i].preciouno)
+       
+        } 
+
+    const preciouno = document.getElementById("carritouno") 
+        
+    contadoruno += Number(carritouno)
+    preciouno.innerHTML =  `$${contadoruno} `
+    console.log(carritouno)
+}
+
+/* Carrito 2 */
+let contadordos = 0
+
+    function btrcarro2(){
 
     
-        for(i=0; i < peliculas.length; i++){
-            console.log()
-            
+    carritodos = []
+
+
+    for(let i= 0; i < peliculas.length; i++){
+        carritodos.push(peliculas[i].preciodos)
+       
+        } 
+
+    const preciodos = document.getElementById("carritodos") 
         
-            const preciodepelicula1 = document.getElementById("precioPeliculauno")
-            preciodepelicula1.innerHTML = `<p>${peliculas[i].preciouno}</p>`
-            
-            while ( contador < preciodepelicula1   ) {
-              preciodepelicula1.appendChild(contador++)
-                
-            }
+    contadordos += Number(carritodos)
+    preciodos.innerHTML =  `$${contadordos} `
+    console.log(carritodos)
+}
 
+/* Carrito 3 */
+let contadortres = 0
+
+    function btrcarro3(){
+
+    
+    carritotres = []
+
+
+    for(let i= 0; i < peliculas.length; i++){
+        carritotres.push(peliculas[i].preciotres)
+       
+        } 
+
+    const preciotres = document.getElementById("carritotres") 
         
-        }
+    contadortres += Number(carritotres)
+    preciotres.innerHTML =  `$${contadortres} `
+    console.log(carritotres)
+}
 
 
-    }
+const contadortotal = 0
+
+function btrtotal(){
+   
 
 
 
-const footer = document.getElementById("footer")
-footer.innerHTML = ` <div class="footer"> <p class="parrafoFooter" >Solo en cines.. compr las entradas por la web</p> <div/> `
+}
+        
+        
+
+const footer = document.getElementById("footer") 
+footer.innerHTML = ` <div class="footer"> <p class="parrafoFooter" >Solo en cines.. compra las entradas por la web</p> <div/> `
+
+
+
+
