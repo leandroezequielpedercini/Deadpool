@@ -171,15 +171,7 @@ let contadortres = 0
 }
 
 
-const contadortotal = 0
 
-function btrtotal(){
-   
-
-
-
-}
-        
         
 
 const footer = document.getElementById("footer") 
