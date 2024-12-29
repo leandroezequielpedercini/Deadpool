@@ -83,12 +83,15 @@ main.innerHTML = ` <div class="cartas2">
 <p id="pelicula3" class="peliculaTres" > Pelicula:Deadpool (3) </p>
 
 
-
 <p>Precio:</p>
 <div id="carritotres" class="pesos">$0</div>
 
 
 </div>
+
+
+
+
 `
 
 
