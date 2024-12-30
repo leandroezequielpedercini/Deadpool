@@ -265,7 +265,12 @@
         transform: transla
         e(1050px);
     }  }
-m
 
 
- @media (max-width: 480px)
+
+ @media (max-width: 400px){
+
+    .titulo{
+        margin-left: 200px
+    }
+ }
