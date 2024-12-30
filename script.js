@@ -99,39 +99,62 @@ h1.innerHTML = ` <h1 class="datosrequeridos" >Datos requeridos</h1>`
 
 /*  Formulario */
 const formulario = document.getElementById ("formulario")
-formulario.innerHTML = ` </div>   <form class="formm" >
+formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="POST="POST" class="formm" id="datosrequeridos">
         
-     <div>    
-    <label >Nombre completo</label >  
-    <input class="nombrecompleto" type="text" placeholder="Nombre completo..........................."> 
-    </div>
+    
+   <label class="labelnombrecompleto" >Nombre completo</label  >  
+   <input class="nombrecompleto" type="text" id="inpunombrecompleto" name="nombrecompleto" placeholder="Nombre completo..........................................................."> 
+   </div>
 
-    <div>
-        <label >Apellido</label>
-        <input class="apellido" type="text"placeholder="Apellido......................................">
-    </div>
+   <div>
+       <label class="labelapellido" >Apellido</label>
+       <input class="apellido" type="text" id="inpunapellido" name="apellido" placeholder="Apellido.........................................................................">
+   </div>
 
-    <div>
-       <label >DNI</label>
-        <input class="dni" type="text"placeholder="DNI.................................................">
-    </div>
+   <div>
+      <label class="labeldni" >DNI</label>
+       <input class="dni" type="text" id="inpundni" name="dni" placeholder="DNI.............................................................................................................................">
+   </div>
 
-    <div>
-        <label>E-mails-</label>
-        <input class="mail" type="email"placeholder="E-mail.............................................">
-    </div>
+   <div>
+       <label class="labelmail" >E-mails-</label>
+       <input class="mail" type="email" id="inpunmail" name="mail" placeholder="E-mail............................................................................">
+   </div>
 
-    <div>
-        <label >Celular-</label>
-        <input class="celular" type="text"placeholder="Celular...........................................">
-        </div>
-       
-</form>
+   <div>
+       <label class="labelcelular" >Celular-</label>
+       <input class="celular" type="text" id="inpuncelular" name="celular" placeholder="Celular..........................................................................">
+       </div>
+      
+   <div><input type="button" value="ENVIAR" id="btn-formulario" name="boton-" class="boton" >
 
-`
+</form>`
 
+document.getElementById("btn-formulario").addEventListener("click", (event) =>{
+   const formulario = document.getElementById("datosrequeridos")
 
+   const nombrecompleto = document.getElementById("inpunombrecompleto")
+  nombrecompleto.innerText = formulario.nombrecompleto.value
 
+  console.log(nombrecompleto)
+
+const apellido = document.getElementById("inpunapellido")
+apellido.innerText = formulario.apellido.value
+console.log(apellido)
+const dni = document.getElementById("inpundni")
+dni.innerText = formulario.dni.value
+console.log(dni)
+
+const mail = document.getElementById("inpunmail")
+mail.innerText = formulario.mail.value
+console.log(mail)
+
+const celular = document.getElementById("inpuncelular")
+celular.innerText = formulario.celular.value
+console.log(celular)
+const mensaje = alert("¡ Correo enviado !")
+
+})
 
     
     const peliculas = [

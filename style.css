@@ -149,50 +149,88 @@
     margin-left: 600px;
     margin-top: 5px;
     width: 20%;
-    background-color: red;
+    border: solid 5px;
+    padding: 10px;
+    padding-right: 65px;
 }
 
 .datosrequeridos{
-    font-size: 45px;  
-    margin-left: 610px;
-     text-decoration: underline;
-     margin-right: 500px;  
-     margin-top: 2%;
-           
+    font-size: 50px;  
+    margin-left: 632px;
+    text-decoration: underline;
+    margin-right: 500px;  
+    margin-top: 2%;
+    
 }
 
 
-
-
+.labelnombrecompleto{
+    font-size: 20px;
+    margin-left: 130px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
 .nombrecompleto{
     margin-left:  60px;
-    background-color: green;
+    font-weight: bold;
+    color: black;
     width: 300px;    
 }
 
+
+.labelapellido{
+  
+  font-size: 20px;
+    margin-left: 168px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+
 .apellido{
     margin-left:  60px;
-    background-color: green;
     width: 300px;    
     
 }
 
+.labeldni{
+    font-size: 20px;
+    margin-left: 187px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
 .dni{
     margin-left:  60px;
-    background-color: green;
     width: 300px;    
 }
+
+
+.labelmail{
+    font-size: 20px;
+    margin-left: 174px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
 
 .mail{
     margin-left:  61px;
-    background-color: green;
     width: 300px;    
 }
 
-.celular{
+
+
+.labelcelular{
    
+   font-size: 20px;
+    margin-left: 175px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.celular{
     margin-left:  61px;
-    background-color: green;
     width: 300px;    
 }
 
