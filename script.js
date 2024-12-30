@@ -99,7 +99,7 @@ h1.innerHTML = ` <h1 class="datosrequeridos" >Datos requeridos</h1>`
 
 /*  Formulario */
 const formulario = document.getElementById ("formulario")
-formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="POST="POST" class="formm" id="datosrequeridos">
+formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="POST" class="formm" id="datosrequeridos">
         
     
    <label class="labelnombrecompleto" >Nombre completo</label  >  
@@ -126,7 +126,7 @@ formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="P
        <input class="celular" type="text" id="inpuncelular" name="celular" placeholder="Celular..........................................................................">
        </div>
       
-   <div><input type="button" value="ENVIAR" id="btn-formulario" name="boton-" class="boton" >
+   <div><input type="button" value="ENVIAR" id="btn-formulario" name="boton" class="boton" >
 
 </form>`
 

@@ -234,7 +234,13 @@
     width: 300px;    
 }
 
-
+.boton{
+    background-color: red;
+    margin-left: 30%;
+    margin-top: 7px;
+    padding: 5px;
+    width: 200px;
+}
 
 .footer{
     background-color: rgb(131, 131, 131);
