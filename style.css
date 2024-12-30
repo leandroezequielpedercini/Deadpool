@@ -139,9 +139,59 @@
     
 }
 
+
+
+/*  Formulario */
+.formm{
+    display: grid;
+    gap: 2px;
+    scale: 150%;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
+.datosrequeridos{
+        margin-left: 200px;
+        text-decoration: underline;
+        margin-right: 500px;  
+        margin-top: 2%;
+           
+}
+
+.comprarentradas{
+  margin-left: 1050px;
+  margin-top: -220px;
+  text-decoration: underline;
+}
+
+
+.nombreacompleto{
+    
+}
+
+.apellido{
+    margin-left:  60px;
+}
+
+.dni{
+    margin-left:  88px;
+}
+
+.mail{
+    margin-left:  61px;
+}
+
+.celular{
+    margin-left:  64px;
+}
+
+.fecha{
+  
+}
+
 .footer{
     background-color: rgb(131, 131, 131);
-    margin-top: -1%;
+    margin-top: 10%;
 }
 
 .parrafoFooter{
@@ -159,39 +209,10 @@
     }
 
     100%{
-        transform: translate(1050px);
+        transform: transla
+        e(1050px);
     }  }
+m
 
 
-
-    @media (max-width: 320px)
-{
-    .tituloheader{
-        margin-left: -435px;
-        scale: 45.1%;
-        }
-
-    .subtitulosection{
-        scale: 80%;
-        display:flexbox;
-        grid-row-start: auto;
-        
-    } 
-
-    .cartas1{
-    display: grid;
-    gap: 20px;
-   margin-top: -350px;
-    margin-left: -100px;    
-    scale: 65%;
-    }
-
-    .cartas2{
-        display: grid;
-    gap: 20px;
-   margin-top: -320px;
-    margin-left: 40px;    
-    scale: 90%;
-    }
-}
-
+ @media (max-width: 480px)
