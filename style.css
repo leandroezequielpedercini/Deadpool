@@ -268,9 +268,10 @@
 
 
 
- @media (max-width: 400px){
+ @media (max-width: 480px){
 
     .titulo{
-        margin-left: 200px
+        margin-left: 200px;
+        width: 200%;
     }
  }
