@@ -143,55 +143,64 @@
 
 /*  Formulario */
 .formm{
-    display: grid;
-    gap: 2px;
-    scale: 150%;
-    margin-left: 500px;
-    margin-top: 70px;
+ display: grid;
+   gap: 2px;
+    scale: 110%;
+    margin-left: 600px;
+    margin-top: 5px;
+    width: 20%;
+    background-color: red;
 }
 
 .datosrequeridos{
-        margin-left: 200px;
-        text-decoration: underline;
-        margin-right: 500px;  
-        margin-top: 2%;
+    font-size: 45px;  
+    margin-left: 610px;
+     text-decoration: underline;
+     margin-right: 500px;  
+     margin-top: 2%;
            
 }
 
-.comprarentradas{
-  margin-left: 1050px;
-  margin-top: -220px;
-  text-decoration: underline;
-}
 
 
-.nombreacompleto{
-    
+
+.nombrecompleto{
+    margin-left:  60px;
+    background-color: green;
+    width: 300px;    
 }
 
 .apellido{
     margin-left:  60px;
+    background-color: green;
+    width: 300px;    
+    
 }
 
 .dni{
-    margin-left:  88px;
+    margin-left:  60px;
+    background-color: green;
+    width: 300px;    
 }
 
 .mail{
     margin-left:  61px;
+    background-color: green;
+    width: 300px;    
 }
 
 .celular{
-    margin-left:  64px;
+   
+    margin-left:  61px;
+    background-color: green;
+    width: 300px;    
 }
 
-.fecha{
-  
-}
+
 
 .footer{
     background-color: rgb(131, 131, 131);
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
 .parrafoFooter{

@@ -99,42 +99,38 @@ h1.innerHTML = ` <h1 class="datosrequeridos" >Datos requeridos</h1>`
 
 /*  Formulario */
 const formulario = document.getElementById ("formulario")
-formulario.innerHTML = ` <div>  </div>   <form class="formm" >
-    
+formulario.innerHTML = ` </div>   <form class="formm" >
+        
      <div>    
-    <label >Nombre completo</label >
-    <input class="nombreapellido" type="text" placeholder="Nombre completo">
+    <label >Nombre completo</label >  
+    <input class="nombrecompleto" type="text" placeholder="Nombre completo..........................."> 
     </div>
 
     <div>
         <label >Apellido</label>
-        <input class="apellido" type="text"placeholder="Apellido">
+        <input class="apellido" type="text"placeholder="Apellido......................................">
     </div>
 
     <div>
-        <label>DNI</label>
-        <input class="dni type="text"placeholder="DNI">
+       <label >DNI</label>
+        <input class="dni" type="text"placeholder="DNI.................................................">
     </div>
 
     <div>
         <label>E-mails-</label>
-        <input class="mail" type="email"placeholder="E-mail">
+        <input class="mail" type="email"placeholder="E-mail.............................................">
     </div>
 
     <div>
         <label >Celular-</label>
-        <input class="celular" type="text"placeholder="Celular">
+        <input class="celular" type="text"placeholder="Celular...........................................">
         </div>
-
-        
+       
 </form>
-
-<h1 class="comprarentradas" >Comprar entradas online</h1>
 
 `
 
-const fecha = document.getElementById("fecha")
-fecha.innerHTML = `<input class="fecha" type="date">`
+
 
 
     
