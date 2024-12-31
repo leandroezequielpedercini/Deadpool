@@ -47,7 +47,10 @@ main.innerHTML = ` <div class="cartas2">
 
 <img id="carrito1" class="movie1" src="index/img/3-tarjetas/foto1.jpeg" alt="Deadpool 1">
 
+<div>
 <input id="btrcarrito" class="carroUno" type="button" value="Añadir al carrito" onclick="btrcarro1()"> 
+</div>
+
 
 <p id="pelicula1" class="peliculaUno" > Pelicula: Deadpool (1) </p>
 
@@ -63,7 +66,11 @@ main.innerHTML = ` <div class="cartas2">
 
 <div>
 <img id="carrito2" class="movie2" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 2">
+
+
+<div>
 <input class="carroDos"  type="button" value="Añadir al carrito" onclick="btrcarro2()" >
+</div>
 
 <p id="pelicula2" class="peliculaDos" > Pelicula:Deadpool (2) </p>
 
@@ -78,8 +85,11 @@ main.innerHTML = ` <div class="cartas2">
 
 <div>
 <img id="carrito3" class="movie3" src="index/img/3-tarjetas/foto2.jpeg" alt="Deadpool 3">
-<input class="carroTres"  type="button" value="Añadir al carrito" onclick="btrcarro3()" >
 
+
+<div>
+<input class="carroTres"  type="button" value="Añadir al carrito" onclick="btrcarro3()" >
+</div>
 <p id="pelicula3" class="peliculaTres" > Pelicula:Deadpool (3) </p>
 
 
