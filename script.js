@@ -54,7 +54,7 @@ main.innerHTML = ` <div class="cartas2">
 
 
     <p>Precio:</p>
-    <div id="carritouno" class="pesos">$0</div>
+    <div id="carritouno" class="pesos"> <h2 class="peso1"> $0</h2/></div>
 
 </div>
 
@@ -70,7 +70,7 @@ main.innerHTML = ` <div class="cartas2">
 
 
 <p>Precio:</p>
-<div id="carritodos" class="pesos">$0</div>
+<div id="carritodos" class="pesos"> <h2 peso2 > $0</h2/></div>
 
 
 </div>
@@ -84,16 +84,18 @@ main.innerHTML = ` <div class="cartas2">
 
 
 <p>Precio:</p>
-<div id="carritotres" class="pesos">$0</div>
+<div id="carritotres" class="pesos"> <h2 peso3 > $0</h2/> </div>
 
 
 </div>
 
 `
 
+const agregar = document.getElementById("agregar")
+agregar.innerHTML = `  <h1 class = "agregar">fsdhlgjs</h1>  `
+
 const h1 = document.getElementById("h1")
 h1.innerHTML = ` <h1 class="datosrequeridos" >Datos requeridos</h1>`
-
 
 
 
@@ -118,7 +120,7 @@ formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="P
 
    <div>
        <label class="labelmail" >E-mails-</label>
-       <input class="mail" type="email" id="inpunmail" name="mail" placeholder="E-mail............................................................................">
+        <input class="mail" type="email" id="inpunmail" name="mail" placeholder="E-mail............................................................................">
    </div>
 
    <div>
@@ -153,6 +155,9 @@ const celular = document.getElementById("inpuncelular")
 celular.innerText = formulario.celular.value
 console.log(celular)
 const mensaje = alert("¡ Correo enviado !")
+
+
+
 
 })
 
@@ -228,6 +233,7 @@ let contadortres = 0
     contadortres += Number(carritotres)
     preciotres.innerHTML =  `$${contadortres} `
     console.log(carritotres)
+
 }
 
 

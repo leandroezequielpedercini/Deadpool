@@ -13,15 +13,12 @@
 .cartas1{
     display: flex;
     gap: 90px;
-    scale: 2p
+    scale: 2px
     }
 
     .video1{
         width: 550px;
         border: solid 10px red;
-        
-
-        
 }   
 
 .btr1{
@@ -41,11 +38,9 @@
 
 
 
-
 .video2{
     width: 550px;
     border: solid 10px red;
-
 
 }
 
@@ -64,7 +59,6 @@
 :hover .btr2{
     cursor:pointer  ;
 }
-
 
 
 .video3{
@@ -89,7 +83,6 @@
     }
 
 
-
 .cartas2{
     display: flex;
     gap: 500px;
@@ -101,7 +94,6 @@
 .movie1{
     border: solid green 10px;
 }
-
 
 
 .movie2{
@@ -138,7 +130,6 @@
     height: 30px;
     
 }
-
 
 
 /*  Formulario */
@@ -262,16 +253,33 @@
     }
 
     100%{
-        transform: transla
-        e(1050px);
+        transform: translate(1050px);
     }  }
 
 
 
- @media (max-width: 480px){
+@media (max-width: 470px){
 
     .titulo{
-        margin-left: 200px;
-        width: 200%;
+        margin-left: 120px;
+        width: 230%;
+    
     }
- }
+
+    .subtitulo{
+        margin-left: 350px;
+        width: 130%;
+    }
+
+    .cartas1{
+        display:grid;
+        margin-left: 350px;
+        margin-top: 20px;
+    }
+
+    .cartas2{
+        display: grid;
+    }
+}
+
+
