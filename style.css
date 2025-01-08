@@ -382,14 +382,14 @@ body{
     .cartas1{
         display: grid;
         scale: 83%;
-        margin-left: -44px;
+        margin-left: -80px;
         gap: 25px;
     }
 
     .cartas2{
         display: grid;
         scale: 100%;
-        margin-top: -200px;
+        margin-top: -70px;
         margin-left: 55px;
         gap: 25px;
     }
