@@ -94,7 +94,7 @@ main.innerHTML = ` <div class="cartas2">
 
 
 <p>Precio:</p>
-<div id="carritotres" class="pesos"> <h2 > $0</h2/> </div>
+<div id="carritotres" class="pesos"> <h2 class="eliminarpesos" > <h2 id="peso-carrito-uno" >0</h2/> </div>
 
 </div>
 
@@ -105,6 +105,9 @@ main.innerHTML = ` <div class="cartas2">
 const agregar = document.getElementById("agregar")
 agregar.innerHTML = ` <button class="btncomprar" onclick="compra()" > COMPRÁR</button> `
 
+/* const remover = document.getElementById("remover")
+remover.innerHTML = ` <button class="btnremover" onclick="remover()" > ELIMINAR</button> `
+ */
 const total = document.getElementById("total")
 total.innerHTML = `<h1 class="sumafinal">$0</h1>`
 
@@ -112,8 +115,14 @@ total.innerHTML = `<h1 class="sumafinal">$0</h1>`
 document.getElementById("agregar").addEventListener("click", () =>{
     const totalfinal = document.getElementById("total")
     totalfinal.innerHTML = `<h1 class="sumafinal">$${contadoruno + contadordos + contadortres }</h1> `
-    contadoruno.remover()
+    
 })
+
+/* const removerpeso = document.getElementById("remover").addEventListener("click", () =>{
+    const eliminar = document.getElementById("remover").remove()
+    
+    
+}) */
 
 
     /*  Formulario */
