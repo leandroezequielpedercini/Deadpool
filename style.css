@@ -366,10 +366,10 @@ body{
 
     @media (max-width : 481px){ 
 
- 
+
     .titulo{
-        width: 470px;
-        padding-left: 113px ;
+        margin-left: 100%;
+
     
     }
     
@@ -380,9 +380,10 @@ body{
 
     .cartas1{
         display: grid;
-        scale: 55%;
+        
+        scale: 83%;
         margin-top: -250px;
-        margin-left: -95px;
+        margin-left: -44px;
         gap: 25px;
     }
 
