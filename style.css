@@ -231,7 +231,7 @@ body{
     width: 10%; 
     margin-left: 10%;
     text-align: center;
- }
+}
 
 .resultadocompra{
     background-color: green;
@@ -361,17 +361,21 @@ body{
         transform: translate(1050px);
     }  }
 
-@media (max-width : 320px){ 
+
+
+
+    @media (max-width : 481px){ 
 
  
     .titulo{
-        width: 305px;
-        margin-left: 0px;
+        width: 470px;
+        padding-left: 113px ;
+    
     }
     
     .subtitulo{
-        width: 205px;
-        margin-left: 60px;
+        width: 380px;
+        padding-right: 1000px ;
     }
 
     .cartas1{

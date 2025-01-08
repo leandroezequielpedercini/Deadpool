@@ -174,8 +174,6 @@ console.log(celular)
 const mensaje = alert("¡ Correo enviado !")
 
 
-
-
 })
 
     
