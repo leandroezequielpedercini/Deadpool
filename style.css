@@ -368,21 +368,20 @@ body{
 
 
     .titulo{
-        margin-left: 100%;
+    margin-left: 1px;
+    width: 460px;
 
     
     }
     
     .subtitulo{
         width: 380px;
-        padding-right: 1000px ;
+        margin-left: 50px;
     }
 
     .cartas1{
         display: grid;
-        
         scale: 83%;
-        margin-top: -250px;
         margin-left: -44px;
         gap: 25px;
     }
