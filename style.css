@@ -368,7 +368,7 @@ body{
 
 
     .titulo{
-    margin-left: 100px;
+    margin-left: -1px;
     width: 460px;
 
     
@@ -432,6 +432,7 @@ body{
         body{
             background-color: red;
             scale: 100%;
+            margin-left: 850px;
                   }
 
 
