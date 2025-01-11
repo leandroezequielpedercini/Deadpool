@@ -415,7 +415,7 @@ border: solid 8px red;
 
 
 
-    @media (max-width : 490px){ 
+    @media (max-width : 481px){ 
 
 
     .titulo{
@@ -476,7 +476,7 @@ border: solid 8px red;
 
     .parrafoFooter{
         width:900px ;
-    font-size: 20px;
+        font-size: 20px;
 
         }
         
@@ -487,11 +487,13 @@ border: solid 8px red;
         }
 
         .titulo-Trailer1{
-
+            margin-left: 97px;
         }
 
         .titulo-Trailer2{
             background: red;
             display: grid;
+            margin-left: -840px;
+            
         }
 }
