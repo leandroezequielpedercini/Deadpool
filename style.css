@@ -414,12 +414,12 @@ border: solid 8px red;
 
 
 
-    @media screen and (max-width : 2000px){ 
+    @media screen and (max-width : 7000px){ 
 
 
         .titulo{
-        margin-left: -20px;
-        width: 450px;
+        margin-left: -100px;
+        width: 1300px;
     
         
         }
