@@ -414,34 +414,33 @@ border: solid 8px red;
 
 
 
-    @media screen and (max-width : 1000px){ 
+   
+   
+    @media screen and (max-width : 320px){ 
 
 
         .titulo{
-        margin-left: 0px;
-        width: 150px;
-        
+        margin-left: -1px;
+        width: 460px;
     
         
         }
         
         .subtitulo{
-            width: 350px;
-            margin-left: 35px;
-            
+            width: 380px;
+            margin-left: 50px;
         }
     
         .cartas1{
             display: grid;
-            scale: 55%;
-            margin-left: -92px;
-            margin-top: -300px;
-            gap: -80px;
+            scale: 83%;
+            margin-left: -45px;
+            gap: 25px;
         }
     
         .cartas2{
             display: grid;
-            scale: 1px;
+            scale: 100%;
             margin-top: -70px;
             margin-left: 55px;
             gap: 25px;
@@ -458,7 +457,7 @@ border: solid 8px red;
     
     
         /* .btrdecompra{
-        background-color: red;
+           background-color: red;
             text-align: ;
         } */
     
@@ -483,8 +482,9 @@ border: solid 8px red;
             }
             
             body{
-                background-color: rgb(2, 0, 128);
-                margin-left: 2%;
+                background-color: green;
+                margin-left: 30%;
+                zoom: 100%;
                 
             }
     
