@@ -415,7 +415,7 @@ border: solid 8px red;
 
 
 
-    @media (max-width : 481px){ 
+    @media screen and (max-width : 481px){ 
 
 
     .titulo{
