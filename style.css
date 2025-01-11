@@ -416,12 +416,12 @@ border: solid 8px red;
 
    
    
-    @media screen and (max-width : 768px){ 
+    @media screen and (max-width : 480px){ 
 
 
         .titulo{
         margin-left: 10px;
-        width: 800px;
+        width: 900px;
         
     
         
@@ -429,7 +429,7 @@ border: solid 8px red;
         
         .subtitulo{
             width: 580px;
-            margin-left: 100px;
+            margin-left: 200px;
         }
     
         .cartas1{
