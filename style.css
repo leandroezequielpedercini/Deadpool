@@ -415,7 +415,7 @@ border: solid 8px red;
 
 
 
-    @media (max-width : 5000px){ 
+    @media (max-width : 490px){ 
 
 
     .titulo{
@@ -479,12 +479,19 @@ border: solid 8px red;
     font-size: 20px;
 
         }
+        
+        body{
+            background-color: green;
+            margin-left: 2%;
+            
+        }
 
-        /* body{
-            background-color: red;
-            scale: 100%;
-            margin-left: 850px;
-                  }
- */
+        .titulo-Trailer1{
 
+        }
+
+        .titulo-Trailer2{
+            background: red;
+            display: grid;
+        }
 }
