@@ -414,86 +414,90 @@ border: solid 8px red;
 
 
 
+    @media screen and (max-width : 320px){ 
 
-    @media screen and (max-width : 481px){ 
 
-
-    .titulo{
-    margin-left: -1px;
-    width: 460px;
-
+        .titulo{
+        margin-left: -1px;
+        width: 310px;
     
-    }
-    
-    .subtitulo{
-        width: 380px;
-        margin-left: 50px;
-    }
-
-    .cartas1{
-        display: grid;
-        scale: 83%;
-        margin-left: -45px;
-        gap: 25px;
-    }
-
-    .cartas2{
-        display: grid;
-        scale: 100%;
-        margin-top: -70px;
-        margin-left: 55px;
-        gap: 25px;
-    }
-
-    .form{
-    margin-right: 10px;
-    margin-top: -150px;
-    border: solid;
-    width: 390px;
-
-
-    }
-
-
-    /* .btrdecompra{
-       background-color: red;
-        text-align: ;
-    } */
-
-
-
-
-
-    #formulario{
-        scale: 60%;
-        margin-left:  -510px;
         
-    }
-
-    .footer{
-    scale: 300%;    
-    }
-
-    .parrafoFooter{
-        width:900px ;
-        font-size: 20px;
-
         }
         
-        body{
-            background-color: green;
-            margin-left: 2%;
+        .subtitulo{
+            width: 230px;
+            margin-left: 50px;
             
         }
-
-        .titulo-Trailer1{
-            margin-left: 97px;
-        }
-
-        .titulo-Trailer2{
-            background: red;
+    
+        .cartas1{
             display: grid;
-            margin-left: -840px;
+            scale: 55%;
+            margin-left: -92px;
+            margin-top: -300px;
+            gap: -80px;
+        }
+    
+        .cartas2{
+            display: grid;
+            scale: 1px;
+            margin-top: -70px;
+            margin-left: 55px;
+            gap: 25px;
+        }
+    
+        .form{
+        margin-right: 10px;
+        margin-top: -150px;
+        border: solid;
+        width: 390px;
+    
+    
+        }
+    
+    
+        /* .btrdecompra{
+        background-color: red;
+            text-align: ;
+        } */
+    
+    
+    
+    
+    
+        #formulario{
+            scale: 60%;
+            margin-left:  -510px;
             
         }
+    
+        .footer{
+        scale: 300%;    
+        }
+    
+        .parrafoFooter{
+            width:900px ;
+            font-size: 20px;
+    
+            }
+            
+            body{
+                background-color: green;
+                margin-left: 2%;
+                
+            }
+    
+            .titulo-Trailer1{
+                margin-left: 97px;
+            }
+    
+            .titulo-Trailer2{
+                background: red;
+                display: grid;
+                margin-left: -840px;
+                
+            }
 }
+
+
+    
