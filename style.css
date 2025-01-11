@@ -419,7 +419,7 @@ border: solid 8px red;
 
         .titulo{
         margin-left: -100px;
-        width: 1300px;
+        width: 1px;
     
         
         }
@@ -482,7 +482,7 @@ border: solid 8px red;
             }
             
             body{
-                background-color: green;
+                background-color: rgb(2, 0, 128);
                 margin-left: 2%;
                 
             }
