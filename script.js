@@ -3,11 +3,20 @@ header.innerHTML = `<div><img src="index/img/1-header/foto1.jpg" alt="MARVEL STU
 
                     <div><img src="index/img/2-titulo/titulo.jpg" alt="DEADPOOL" class="subtitulo" ></div>`
 
+
+
+const trailerDeadpool1 = document.getElementById("trailers-titulos")
+trailerDeadpool1.innerHTML = `<div class="titulo-Trailer" > <h1 class="titulo-Trailer1"> Trailer ( 1 ) </h1>  <h1 class="titulo-Trailer2"> Trailer ( 2 ) </h1>  <h1 class="titulo-Trailer3"> Trailer ( 3 ) </h1>  </div>`
+
+
 const seccion = document.getElementById("seccion")
 seccion.innerHTML = `<div class="cartas1">
 
+
     <div class="trailer1">
-    <video id="primerTrailer" class="video1" src="index/Video/traillerUno.mp4"></video>
+
+    
+     <video id="primerTrailer" class="video1" src="index/Video/traillerUno.mp4"></video>
     <input  type="button" value="Trailer" class="btr1" onclick="bton1()">
     </div>
     
@@ -153,10 +162,17 @@ formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="P
        <label class="labelcelular" >Celular-</label>
        <input class="celular" type="text" id="inpuncelular" name="celular" placeholder="Celular..........................................................................">
        </div>
-      
+   
+       <div>
+       <label class="labeltotal" >Precio de la entrada-</label>
+       <input class="preciototal" type="text" id="inpunpreciototal" name="preciototal" placeholder="Precio final..........................................................................">
+       </div>
+   
+
    <div><input type="button" value="ENVIAR" id="btn-formulario" name="boton" class="boton" >
 
 </form>`
+
 
 document.getElementById("btn-formulario").addEventListener("click", (event) =>{
    const formulario = document.getElementById("datosrequeridos")
@@ -180,20 +196,36 @@ console.log(mail)
 const celular = document.getElementById("inpuncelular")
 celular.innerText = formulario.celular.value
 console.log(celular)
+
+const preciofinal = document.getElementById("inpunpreciototal")
+preciofinal.innerText = formulario.preciototal.value
+
+console.log(celular)
+
+
 const mensaje = alert("¡ Correo enviado !")
 
 
 })
 
-    
+const trailers =[
+    {
+        traileruno: "trailer ( 1 )",
+        trailerdos: "trailer ( 2 )",
+        trailertres: "trailer ( 3 )",
+    }
+]
     const peliculas = [
         {
             preciouno:  2000,
             preciodos:  2500,
             preciotres: 5000,
-            }
-    ]
+        } 
 
+    ]
+    
+    
+    
 
 
     /* Carrito Uno */

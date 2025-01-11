@@ -98,6 +98,39 @@ body{
 }
 
 
+.titulo-Trailer{
+    display: flex;
+    gap: 100%;
+    color:black;
+    text-decoration: underline;
+    width: 564px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo-Trailer1{
+margin-left: 170px;
+background-color:green;
+color: white;
+border: solid 8px red;
+}
+
+
+.titulo-Trailer2{
+    margin-left: -50px;
+    background-color:green;
+    color: white;
+    border: solid 8px red;
+    }
+
+    .titulo-Trailer3{
+    margin-left: -80px;
+    background-color:green;
+    color: white;
+    border: solid 8px red;
+        }
+
+
 .movie1{
     border: solid green 10px;
 }
@@ -255,7 +288,7 @@ body{
 
 .labelnombrecompleto{
     font-size: 20px;
-    margin-left: 130px;
+       margin-left:  135px;
     font-weight: bold;
     text-decoration-line: underline;
 }
@@ -323,6 +356,24 @@ body{
     width: 300px;    
 }
 
+
+
+.preciototal{
+    margin-left:  61px;
+    width: 300px;    
+}
+
+
+.labeltotal{
+
+    font-size: 20px;
+    margin-left:  120px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+
+
 .boton{
     background-color: red;
     color: white;
@@ -364,7 +415,7 @@ body{
 
 
 
-    @media (max-width : 481px){ 
+    @media (max-width : 700px){ 
 
 
     .titulo{
@@ -429,11 +480,11 @@ body{
 
         }
 
-        body{
+        /* body{
             background-color: red;
             scale: 100%;
             margin-left: 850px;
                   }
-
+ */
 
 }
