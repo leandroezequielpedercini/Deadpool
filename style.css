@@ -416,7 +416,7 @@ border: solid 8px red;
 
    
    
-    @media screen and (max-width : 480px){ 
+    @media screen and (max-width : 481px){ 
 
 
         .titulo{
@@ -485,7 +485,7 @@ border: solid 8px red;
             body{
                 background-color: green;
                 margin-left: 30%;
-                zoom: 100%;
+                zoom: 300%;
                 
             }
     

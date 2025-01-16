@@ -174,6 +174,10 @@ formulario.innerHTML = `<form action="https://formspree.io/f/xyzzdzaz" method="P
 </form>`
 
 
+const fortotal = document.getElementById("total")
+fortotal.innerHTML =  `<input class="preciototal" type="text" id="inpunpreciototal" name="preciototal" placeholder="Precio final..........................................................................></input>` 
+
+
 document.getElementById("btn-formulario").addEventListener("click", (event) =>{
    const formulario = document.getElementById("datosrequeridos")
 
