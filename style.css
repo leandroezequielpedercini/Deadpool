@@ -420,16 +420,16 @@ border: solid 8px red;
 
 
         .titulo{
-        margin-left: 10px;
-        width: 900px;
+        margin-left: 40px;
+        width: 400px;
         
     
         
         }
         
         .subtitulo{
-            width: 580px;
-            margin-left: 200px;
+            width: 250px;
+            margin-left: 125px;
         }
     
         .cartas1{
@@ -482,12 +482,7 @@ border: solid 8px red;
     
             }
             
-            body{
-                background-color: green;
-                margin-left: 30%;
-                
-                
-            }
+            
     
             .titulo-Trailer1{
                 margin-left: 97px;
