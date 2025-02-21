@@ -98,31 +98,6 @@ body{
 }
 
 
-.titulo-Trailer{
-    display: flex;
-    gap: 100%;
-    color:black;
-    text-decoration: underline;
-    width: 564px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.titulo-Trailer1{
-margin-left: 170px;
-background-color:green;
-color: white;
-border: solid 8px red;
-}
-
-
-.titulo-Trailer2{
-    margin-left: -50px;
-    background-color:green;
-    color: white;
-    border: solid 8px red;
-    }
-
     .titulo-Trailer3{
     margin-left: -80px;
     background-color:green;
@@ -416,7 +391,7 @@ border: solid 8px red;
 
    
    
-    @media screen and (max-width:481px){ 
+    @media  (max-width:500px){ 
 
 
         .titulo{
@@ -468,12 +443,17 @@ border: solid 8px red;
     
         #formulario{
             scale: 60%;
-            margin-left:  -510px;
+            margin-left:  -560px;
+            margin-top: 200px;
+            scale: 90%;
             
         }
     
         .footer{
-        scale: 300%;    
+        scale: 70.8%;  
+        width: 170%;
+        margin-left: -210px; 
+        text-align: center;
         }
     
         .parrafoFooter{
@@ -497,4 +477,3 @@ border: solid 8px red;
 }
 
 
-    

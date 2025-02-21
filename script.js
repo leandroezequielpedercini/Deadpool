@@ -5,8 +5,7 @@ header.innerHTML = `<div><img src="index/img/1-header/foto1.jpg" alt="MARVEL STU
 
 
 
-const trailerDeadpool1 = document.getElementById("trailers-titulos")
-trailerDeadpool1.innerHTML = `<div class="titulo-Trailer" > <h1 class="titulo-Trailer1"> Trailer ( 1 ) </h1>  <h1 class="titulo-Trailer2"> Trailer ( 2 ) </h1>  <h1 class="titulo-Trailer3"> Trailer ( 3 ) </h1>  </div>`
+
 
 
 const seccion = document.getElementById("seccion")
